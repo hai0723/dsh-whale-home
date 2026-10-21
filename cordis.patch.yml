@@ -1,0 +1,4 @@
+# 鲸鱼娘的小窝：Harness 启动时把门打开。
+- insert:
+    - id: dsh-whale-home
+      name: 'dsh-whale-home'

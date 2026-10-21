@@ -1,0 +1,13 @@
+data/
+design/
+test/
+scripts/
+HANDOFF.md
+*.tmp
+*.bak
+*.backup*
+*.before-*
+*.log
+.env*
+*.pem
+*.key

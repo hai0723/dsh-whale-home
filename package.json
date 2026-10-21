@@ -1,0 +1,35 @@
+{
+  "name": "dsh-whale-home",
+  "version": "0.6.4",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/regression.mjs && node test/forum.test.mjs && node test/tools.test.mjs",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "type": "module",
+  "files": [
+    "lib/client.js",
+    "lib/forum.js",
+    "lib/index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "docs/"
+  ],
+  "description": "鲸鱼娘的小窝：Harness 侧边栏里的原生喂饭面板，会随时间、心情和喂饭记录变化。",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+data/
+design/
+node_modules/
+.tmp*/
+test/.tmp-*/
+*.tmp
+*.bak
+*.backup*
+*.before-*
+*.log
+*.zip
+*.tgz
+.env
+.env.*
+*.pem
+*.key
+HANDOFF.md
+**/edge-profile/
+**/chrome-profile/
+**/Cookies
+**/Login Data
+**/Local State
+Thumbs.db
+.DS_Store
